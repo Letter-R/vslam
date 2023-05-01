@@ -1,9 +1,6 @@
 use image::DynamicImage;
 use nalgebra::Vector2;
-trait Feature {
-    fn extract_features(image:&DynamicImage)->Vec<Self> where Self:Sized;
-    fn match_features(feature1:Vec<Self>,feature2:Vec<Self>)->Vec<(usize,usize)> where Self:Sized;
-}
+use vslam_core::Feature;
 
 pub struct ORBFeature{
     location:Vector2<f64>,
