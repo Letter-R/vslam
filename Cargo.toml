@@ -1,0 +1,7 @@
+[workspace]
+members=[
+    "vslam_core",       
+    "vslam_frontend",
+    "vslam_backend",
+    "vslam_app"
+]
