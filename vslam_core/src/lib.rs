@@ -1,3 +1,1 @@
-mod keyframe;
-
-pub use keyframe::Feature;
+pub mod keyframe;

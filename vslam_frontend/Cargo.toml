@@ -9,3 +9,4 @@ edition = "2021"
 vslam_core={path="../vslam_core"}
 image="*"
 nalgebra="*"
+rand="*"
