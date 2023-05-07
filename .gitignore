@@ -16,4 +16,5 @@ Cargo.lock
 # data
 data/
 
-matched_features.png
+*.png
+*.jpg

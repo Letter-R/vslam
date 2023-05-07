@@ -7,6 +7,7 @@ edition = "2021"
 
 [dependencies]
 image = "*"
+imageproc="*"
 nalgebra="*"
 vslam_core={path="../vslam_core"}
 vslam_frontend={path="../vslam_frontend"}

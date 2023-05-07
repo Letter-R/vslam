@@ -10,3 +10,4 @@ vslam_core={path="../vslam_core"}
 image="*"
 nalgebra="*"
 rand="*"
+imageproc="*"
